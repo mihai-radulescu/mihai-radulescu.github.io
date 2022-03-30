@@ -260,6 +260,7 @@ section{
 
     .left-about{
         padding-right: 5rem;
+        display: grid;
         
         p{
             line-height: 2rem;
@@ -476,7 +477,7 @@ section{
         .contact-btns{
             display: flex;
             justify-content: space-evenly;
-            padding-top: 5rem;
+            margin-top: 4rem;
         }
     }
 }
@@ -656,16 +657,6 @@ section{
     opacity: 1;
     transform: scale(1);
 }
-
-// Location:
-// London, united Kingdom
-
-// Location:
-// London, united Kingdom
-
-// Location:
-// London, united Kingdom
-
 
 // Importing media querries
 @import './media' 
